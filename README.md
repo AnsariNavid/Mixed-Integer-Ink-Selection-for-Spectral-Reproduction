@@ -24,7 +24,12 @@ This release contains a MATLAB selection example, PyTorch separation models and 
 
 ## Download and prepare the project
 
-**The GitHub checkout includes the source code, pretrained checkpoints, and ink-selection inputs. Download and organize the additional datasets before running neural separation or reproducing the data-dependent experiments.**
+**The large data files are hosted on Google Drive because of their size.** Download and organize them before running neural separation or reproducing the data-dependent experiments.
+
+| Location | Contents |
+| --- | --- |
+| This GitHub repository | Source code, pretrained checkpoints, small ink-selection inputs, and dataset previews. |
+| [Google Drive archive](https://drive.google.com/file/d/1TwPk96DutU-MFO03uSR_5ThjqFBJIOHH/view?usp=sharing) | The complete original release, including neural training arrays, full painting spectra, paint measurements, and calibration channel patterns. |
 
 First, clone this repository:
 
@@ -48,8 +53,8 @@ The archive is approximately **6.31 GB**, with **6.46 GB** of uncompressed file 
 | Directory | Contents |
 | --- | --- |
 | [`Ink_selection/`](Ink_selection/) | MATLAB optimization, the ink library, and precomputed painting coresets. |
-| [`Spectral seperation neural networks/`](Spectral%20seperation%20neural%20networks/) | Forward and inverse neural models, adaptation, pretrained checkpoints, and coverage export. Restore the training and painting arrays from the archive. |
-| [`Dataset/`](Dataset/) | Dataset descriptions and preview images. Restore paint spectra, spectral paintings, calibration arrays, and channel patterns from the archive. |
+| [`Spectral seperation neural networks/`](Spectral%20seperation%20neural%20networks/) | Forward and inverse neural models, adaptation, pretrained checkpoints, and coverage export. Add the training and painting arrays from Google Drive. |
+| [`Dataset/`](Dataset/) | Dataset descriptions and preview images. Add paint spectra, spectral paintings, calibration arrays, and channel patterns from Google Drive. |
 
 Keep the original directory names and spelling: the scripts use these paths.
 

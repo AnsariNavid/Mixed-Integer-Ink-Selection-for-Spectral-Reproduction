@@ -6,7 +6,7 @@ This guide covers the code in [AnsariNavid/mixed-integer-ink-selection](https://
 
 ## 1. Extract and organize the files
 
-The GitHub repository contains the MATLAB and Python code, five pretrained checkpoints, and the small ink-selection inputs. The large data release is distributed separately. A GitHub clone or GitHub's **Download ZIP** does not include the neural training arrays, full painting spectra, paint-measurement arrays, or calibration channel patterns.
+The GitHub repository contains the MATLAB and Python code, five pretrained checkpoints, and the small ink-selection inputs. The large data files are hosted separately on Google Drive because of their size. Download the linked archive in addition to the GitHub checkout to obtain the neural training arrays, full painting spectra, paint-measurement arrays, and calibration channel patterns. GitHub's **Download ZIP** contains only the files hosted in this repository.
 
 The [Google Drive archive](https://drive.google.com/file/d/1TwPk96DutU-MFO03uSR_5ThjqFBJIOHH/view?usp=sharing) is named `mixed-integer-ink-selection-code-and-dataset-master.zip`. It contains one top-level folder, `mixed-integer-ink-selection-code-and-dataset-master/`, with 110 files from the original release.
 
@@ -71,7 +71,7 @@ The compressed archive is 6,306,246,522 bytes and the total uncompressed file co
 
 Spaces, capitalization, and original spellings are significant. In particular, retain `Spectral seperation neural networks`, `Dataset_ 300samples`, and `Dataset_ 33000samples` exactly.
 
-For pretrained Flower inference, restore `flower_painting_approx_spec.mat`. Retraining also needs `dataset_approx_spec.mat` and `dataset_halftone.mat`. Put these files directly inside `Spectral seperation neural networks/`, beside the Python scripts and checkpoints. The MATLAB demo's `Ink_selection/Test data/` inputs are already present in the GitHub checkout.
+For pretrained Flower inference, add `flower_painting_approx_spec.mat` from the Google Drive archive. Retraining also needs `dataset_approx_spec.mat` and `dataset_halftone.mat`. Put these files directly inside `Spectral seperation neural networks/`, beside the Python scripts and checkpoints. The MATLAB demo's `Ink_selection/Test data/` inputs are already present in the GitHub checkout.
 
 ### Data reference
 
